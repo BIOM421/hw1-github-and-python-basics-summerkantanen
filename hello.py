@@ -3,5 +3,5 @@ def hello_world():
 
 
 def hello_world_n(N):
-	result = "Hello World!" * N
-	return result
+    result = " ".join(["Hello World!" for _ in range(N)])
+    return result
